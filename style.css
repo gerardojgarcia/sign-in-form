@@ -6,14 +6,38 @@
 .form-container {
   display: flex;
   flex-flow: column nowrap;
-  width: 50vw;
-  margin: 0 auto;
+
+  margin: 15rem auto;
+
+max-width:25rem;
+max-height: 50vh;
+
+
+  border-radius: .5rem;
+
+  box-shadow: 0px 0px 30px rgb(0, 0, 0, .5);
 }
+
+form {
+  padding: 1rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  border-radius: .5rem;
+  padding: .2rem;
+}
+
 
 .form-name {
   display: flex;
   flex-flow: column nowrap;
   margin-block-start: 1em;
+  margin-bottom: 1rem;
 
 
 }
@@ -21,7 +45,7 @@
 .form-name > * {
   display: flex;
   flex-flow: column nowrap;
-  margin-block-start: .2em;
+  margin-block-start: .3em;
 
 
 }
