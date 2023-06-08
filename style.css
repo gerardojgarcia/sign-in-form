@@ -10,7 +10,7 @@
   margin: 15rem auto;
 
 max-width:25rem;
-max-height: 50vh;
+min-height: 50vh;
 
 
   border-radius: .5rem;
@@ -54,4 +54,9 @@ input {
 .address {
   display: flex;
   flex-flow: column nowrap;
+}
+
+.display__user {
+  width: 5rem;
+  overflow-y: auto;
 }
