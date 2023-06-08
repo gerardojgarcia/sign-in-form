@@ -57,6 +57,18 @@ input {
 }
 
 .display__user {
+  padding: 1rem;
   width: 5rem;
   overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#form__button {
+  background-color: white;
+  width: 50px;
+  padding: .1rem;
+  border: 2px solid black;
+  border-radius: .1rem;
+  margin-top: 1rem;
+  justify-self: end;
 }

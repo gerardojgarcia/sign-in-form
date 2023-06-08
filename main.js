@@ -18,19 +18,11 @@ function displayUser(){
   const showUser = document.querySelector('.display__user')
 
   for(let i = 0; i < entry.length; i++){
+    console.log(showUser)
 
-
-
-console.log(showUser)
-
-
-showUser.innerHTML += `<p>${entry[i].firstname}</p>
-<p>${entry[i].lastname}</p>
-<p>${entry[i].email}</p>
-<p>${entry[i].street}</p>`
-
-
-
+    showUser.innerHTML += `<p>${entry[i].firstname}</p><p>${entry[i].lastname}</p>
+    <p>${entry[i].email}</p>
+    <p>${entry[i].street}</p>`
 
   }
 }
