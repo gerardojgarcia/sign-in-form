@@ -27,7 +27,11 @@ function displayUser(){
   }
 }
 
+
+
 formBtn.addEventListener('click', function(){
+
+  
 
   entry.push({
     firstname: firstName.value,

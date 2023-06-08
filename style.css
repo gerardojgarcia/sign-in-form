@@ -25,15 +25,18 @@ form {
 label {
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: .1rem;
 }
 
 input {
-  border-radius: .5rem;
-  padding: .2rem;
+  padding: .3rem;
+  border: 2px solid black;
+  border-radius: .1rem;
+margin-bottom: 1rem;
 }
 
 
-.form-name {
+.form__name {
   display: flex;
   flex-flow: column nowrap;
   margin-block-start: 1em;
@@ -42,7 +45,7 @@ input {
 
 }
 
-.form-name > * {
+.form__name > * {
   display: flex;
   flex-flow: column nowrap;
   margin-block-start: .3em;
@@ -50,25 +53,39 @@ input {
 
 }
 
-
-.address {
+.form__address {
   display: flex;
   flex-flow: column nowrap;
 }
 
+
+.form__address input {
+  margin-bottom: 1rem;
+}
+
+.address{
+  display: flex;
+  flex-flow: column nowrap;
+  margin-block-start: 1em;
+
+}
+
+
+
 .display__user {
   padding: 1rem;
-  width: 5rem;
+  width: 15vw;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 #form__button {
   background-color: white;
-  width: 50px;
-  padding: .1rem;
+
+  padding: .3rem;
   border: 2px solid black;
   border-radius: .1rem;
   margin-top: 1rem;
   justify-self: end;
+  cursor: pointer;
 }
